@@ -428,7 +428,7 @@ if open_game:
                 screen.blit(glove_text, (10, 210))
 
                 font = pygame.font.Font(None, 36)
-                interact_text = font.render("""press E to interact""", True, RED)
+                interact_text = font.render("""press SPACE to interact""", True, RED)
                 screen.blit(interact_text, (10, 235))
 
                 font = pygame.font.Font(None, 36)
